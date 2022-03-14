@@ -10,7 +10,7 @@
 * They are linear data structures.
 * Working principle of stacks is FIFO (First in first out).
 
-![Queue Image](stack.png)
+![Queue Image](queue.png)
 
 * ADT (Abstract Data Type) operations of queues are:
 * 1. Enqueue()
