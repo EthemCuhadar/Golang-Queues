@@ -27,6 +27,11 @@
 | Q.IsEmpty()   | O(1)           |
 | Q.Len()       | O(1)           |
 
+* Why Enqueue and Dequeue operations are **amortized**?
+* Because, these operations can cause reallocation (extension or shrinkage) on slices.
+
+
+
 ![Queue Image](queue.png)
 
 ------------------------------------------------------------
