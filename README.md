@@ -10,14 +10,24 @@
 * They are linear data structures.
 * Working principle of stacks is FIFO (First in first out).
 
-![Queue Image](queue.png)
-
 * ADT (Abstract Data Type) operations of queues are:
 * 1. Enqueue()
 * 2. Dequeue()
 * 3. Len()
 * 4. IsEmpty()
 * 5. First()
+----------------------------------------------------------
+## Time complexities of ADT operations
+
+| **Operation** | **Complexity** |
+| ------------- | -------------- |
+| Q.Enqueue(e)  | O(1)*          |
+| Q.Dequeue()   | O(1)*          |
+| Q.First()     | O(1)           |
+| Q.IsEmpty()   | O(1)           |
+| Q.Len()       | O(1)           |
+
+![Queue Image](queue.png)
 
 ------------------------------------------------------------
 
